@@ -136,7 +136,7 @@ def plot_vbars_q(out, f, y, title="", trend='mean', yaxis_label="", xaxis_label=
 
 def plot_hbar(out, df, val_col, sort_by="", title="", yaxis_label="", xaxis_label="", hover_x="", hover_y=""):
     """
-    A function that takes in lists of corresponding x and y values from a DataFrame and plots them into an interactive vertical bar graph. 
+    A function that takes in a DataFrame and plots them into an interactive horizontal bar graph. 
     
     Parameters
     ----------------------------------------------------
